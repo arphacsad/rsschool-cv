@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 header {
     text-align: center;
     border-bottom: 2px solid #ddd;
@@ -24,3 +33,10 @@ ul {
     padding-left: 20px;
 }
 
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
