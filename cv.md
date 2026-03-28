@@ -30,8 +30,7 @@ public class Multiply {
 
 ## **Education**
 
-- Kyrgyz National Univerity
-- Applied Mathematics and Informatics
+- Kyrgyz National Univerity: Applied Mathematics and Informatics
 
 ## English Language
 
