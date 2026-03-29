@@ -1,75 +1,115 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #e3f2fd, #fce4ec);
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 900px;
-    margin: 40px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    text-align: center;
-    border-bottom: 2px solid #ddd;
-    margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
 }
 
 h1 {
-    margin-bottom: 10px;
-    color: #2c3e50;
+  margin-bottom: 10px;
+  color: #2c3e50;
 }
 
 h2 {
-    color: #34495e;
-    margin-top: 20px;
+  color: #34495e;
+  margin-top: 20px;
 }
 
 /* Section icons */
 h2 i {
-    margin-right: 8px;
-    color: #3498db;
+  margin-right: 8px;
+  color: #3498db;
 }
 
 /* Top layout */
 .top-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Photo */
 .photo img {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 3px solid #3498db;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #3498db;
 }
 
-* Contact */
-.contact-list li {
-    margin-bottom: 8px;
+* Contact */ .contact-list li {
+  margin-bottom: 8px;
 }
 
 .contact-list i {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 /* About box */
 .about-box {
-    background-color: #e3f2fd;
-    border-left: 5px solid #2196f3;
-    padding: 15px;
-    border-radius: 8px;
+  background-color: #e3f2fd;
+  border-left: 5px solid #2196f3;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 /* Skills */
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.skills-icons span {
+  background: #f0f4f8;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skills-icons span:hover {
+  background: #d6eaff;
+  transform: translateY(-2px);
+}
+
+/* Icon colors */
+.fa-html5 {
+  color: #e44d26;
+}
+.fa-css3-alt {
+  color: #264de4;
+}
+.fa-java {
+  color: #f89820;
+}
+.fa-github {
+  color: black;
+}
+.fa-discord {
+  color: #5865f2;
+}
+.fa-telegram {
+  color: #0088cc;
+}
+.fa-git-alt {
+  color: #f1502f;
+}
 
 pre {
   background-color: #272822;
