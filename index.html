@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Asel Abylbekova</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome (icons) from https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="style4.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#english">English</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <h1>Asel Abylbekova</h1>
+      </header>
+
+      <!-- Top Section -->
+      <div class="top-section" id="contact">
+        <div class="contact">
+          <h2><i class="fas fa-address-book"></i> Contact Information</h2>
+          <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i> tunduk2024@gmail.com</li>
+            <li><i class="fab fa-discord"></i> arphacsad</li>
+            <li><i class="fab fa-telegram"></i> arphacsad</li>
+          </ul>
+        </div>
+
+        <div class="photo">
+          <img src="images/profile.JPG" alt="My Photo" />
+        </div>
+      </div>
+
+      <!-- About -->
+      <section id="about">
+        <h2><i class="fas fa-user"></i> About Me</h2>
+        <div class="about-box">
+          <p>
+            I am a curious and motivated student learning Java. I enjoy solving
+            problems, exploring new ideas, and I would like to create different
+            projects to learn more and face new challenges in each one. I like
+            working with others and sharing knowledge while discovering new
+            things.
+          </p>
+          <p><strong>Goal:</strong> Become a Full-Stack Developer.</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+
+        <p><strong>Languages:</strong></p>
+        <div class="skills-icons">
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS</span>
+          <span><i class="fab fa-java"></i> Java</span>
+        </div>
+
+        <p><strong>Tools:</strong></p>
+        <div class="skills-icons">
+          <span><i class="fab fa-git-alt"></i> Git</span>
+          <span><i class="fab fa-github"></i> GitHub</span>
+          <span><i class="fas fa-code"></i> VS Code</span>
+          <span><i class="fas fa-laptop-code"></i> IntelliJ IDEA</span>
+          <span><i class="fas fa-laptop"></i> NetBeans</span>
+        </div>
+
+        <p><strong>Design & Media:</strong></p>
+        <div class="skills-icons">
+          <span><i class="fas fa-image"></i> Photoshop</span>
+          <span><i class="fas fa-video"></i> Adobe Premiere Pro</span>
+        </div>
+      </section>
+
+      <!-- Code -->
+      <section id="code">
+        <h2><i class="fas fa-code"></i> Code Example</h2>
+        <pre><code>
+public class Multiply {
+    public static Double multiply(Double a, Double b) {
+        return a * b;
+    }
+}
+        </code></pre>
+      </section>
+
+      <!-- Education -->
+      <section id="education">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <p>Kyrgyz National University</p>
+        <p>Specialization: Applied Mathematics and Informatics</p>
+      </section>
+
+      <!-- English -->
+      <section id="english">
+        <h2><i class="fas fa-language"></i> English</h2>
+        <p>B1-B2</p>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>© <span id="year"></span> Asel Abylbekova</p>
+
+        <p>
+          <a href="https://github.com/arphacsad" target="_blank">
+            <i class="fab fa-github"></i> My GitHub
+          </a>
+        </p>
+
+        <a
+          href="https://rs.school/courses/javascript-preschool-ru"
+          target="_blank"
+        >
+          <img
+            src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/0b9490ff1b5493242c862130c81d9c9edaa16f8a/tasks/cv/rs-school-logo.svg"
+            alt="RS School Logo"
+            class="course-logo"
+          />
+        </a>
+      </footer>
+    </div>
+
+    <!-- Auto year -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
