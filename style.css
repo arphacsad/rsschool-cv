@@ -119,3 +119,23 @@ pre {
   border-radius: 5px;
   overflow-x: auto;
 }
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.course-logo {
+    margin-top: 10px;
+    width: 100px;
+    transition: transform 0.3s;
+}
+
+.course-logo:hover {
+    transform: scale(1.1);
+}
