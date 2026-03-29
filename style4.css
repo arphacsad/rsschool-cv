@@ -46,3 +46,51 @@
 .fa-user:before {
   content: "\f007";
 }
+
+/* Skills */
+.fa-laptop-code:before {
+  content: "\f5fc";
+}
+
+/* Languages */
+.fa-html5:before {
+  content: "\f13b";
+}
+.fa-css3-alt:before {
+  content: "\f38b";
+}
+.fa-java:before {
+  content: "\f4e4";
+}
+
+/* Tools */
+.fa-git-alt:before {
+  content: "\f841";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-code:before {
+  content: "\f121";
+}
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* Design */
+.fa-image:before {
+  content: "\f03e";
+}
+.fa-video:before {
+  content: "\f03d";
+}
+
+/* Education */
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* English */
+.fa-language:before {
+  content: "\f1ab";
+}
