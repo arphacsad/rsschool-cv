@@ -9,3 +9,40 @@
   font-family: "FA Brands";
   src: url("webfonts/fa-brands-400.woff2") format("woff2");
 }
+
+/* ===== BASE ICON STYLES ===== */
+.fas {
+  font-family: "FA Solid";
+  font-weight: 900;
+}
+
+.fab {
+  font-family: "FA Brands";
+}
+
+.fas,
+.fab {
+  display: inline-block;
+  font-style: normal;
+}
+
+/* ===== ICONS ===== */
+
+/* Contact */
+.fa-address-book:before {
+  content: "\f2b9";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-discord:before {
+  content: "\f392";
+}
+.fa-telegram:before {
+  content: "\f2c6";
+}
+
+/* About */
+.fa-user:before {
+  content: "\f007";
+}
