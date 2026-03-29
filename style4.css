@@ -1,0 +1,96 @@
+/* ===== LOAD FONTS ===== */
+@font-face {
+  font-family: "FA Solid";
+  src: url("webfonts/fa-solid-900.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "FA Brands";
+  src: url("webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+/* ===== BASE ICON STYLES ===== */
+.fas {
+  font-family: "FA Solid";
+  font-weight: 900;
+}
+
+.fab {
+  font-family: "FA Brands";
+}
+
+.fas,
+.fab {
+  display: inline-block;
+  font-style: normal;
+}
+
+/* ===== ICONS ===== */
+
+/* Contact */
+.fa-address-book:before {
+  content: "\f2b9";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-discord:before {
+  content: "\f392";
+}
+.fa-telegram:before {
+  content: "\f2c6";
+}
+
+/* About */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* Skills */
+.fa-laptop-code:before {
+  content: "\f5fc";
+}
+
+/* Languages */
+.fa-html5:before {
+  content: "\f13b";
+}
+.fa-css3-alt:before {
+  content: "\f38b";
+}
+.fa-java:before {
+  content: "\f4e4";
+}
+
+/* Tools */
+.fa-git-alt:before {
+  content: "\f841";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-code:before {
+  content: "\f121";
+}
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* Design */
+.fa-image:before {
+  content: "\f03e";
+}
+.fa-video:before {
+  content: "\f03d";
+}
+
+/* Education */
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* English */
+.fa-language:before {
+  content: "\f1ab";
+}
