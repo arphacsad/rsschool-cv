@@ -103,6 +103,33 @@ public class Multiply {
         <h2><i class="fas fa-language"></i> English</h2>
         <p>B1-B2</p>
       </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>© <span id="year"></span> Asel Abylbekova</p>
+
+        <p>
+          <a href="https://github.com/arphacsad" target="_blank">
+            <i class="fab fa-github"></i> My GitHub
+          </a>
+        </p>
+
+        <a
+          href="https://rs.school/courses/javascript-preschool-ru"
+          target="_blank"
+        >
+          <img
+            src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/0b9490ff1b5493242c862130c81d9c9edaa16f8a/tasks/cv/rs-school-logo.svg"
+            alt="RS School Logo"
+            class="course-logo"
+          />
+        </a>
+      </footer>
     </div>
+
+    <!-- Auto year -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
